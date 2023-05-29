@@ -1,0 +1,78 @@
+192.168.0.100
+192.168.0.105
+
+
+C:\Users\Dell\Pictures\Screenshots
+
+hostname -I
+nmtui
+git----
+git --version
+git config --list
+
+--> user and email configuration mandatory
+git config --global user.name <name>
+git config --global user.email <emailaddress>
+
+git status we can chack the status
+** touch: we can create multiple file
+touch file4 file5 file6
+multiple fies we add and commit
+git add file4 file5 file6
+git commit -m "commited all files to repo" file4 file5 file6
+git add . = it pocks all files which are untacked and into stage
+git commit -m "commit all files at time" .
+git show = we can c last commit
+	is shows Commit Id,Author,date and message
+git show <commitid>
+git show <author>
+
+git log =  fetch the recent transations and ID's
+git log --all
+git log --oneline
+git reset HEAD <filename> = we can recall the file from staging
+git revert = undo commit
+git revert <commitID>
+git checkout --<filename> = undo the changes
+git rm = remove a file and directory
+Note: If remove afile using git rm it store the staging area.
+
+git is-files for commit area
+--> Cteate Project
+git init <Projectname>
+
+cteate foloder
+mkdir sample
+
+
+**************************************************************************
+git Arc
+
+Remote
+	|
+Local Repo
+	|
+Staging Directory(Add to Loval Dir Command:git commit -m "added file2" <Filenmae>
+	|
+Working Direcory (Add to staging Dir Commands: git add <File Name>
+*****************************************************************************
+Github--Microsoft
+GitLab,Assembla,Gitbucket -- other vendor
+
+https://github.com/raovrm/test-repo.git
+
+2 types
+Public Reposetory --> every one access,searchble in Internet,free of cost
+Private Repo --> not searcble in internet and who is having access they can access.
+
+Once its done repo creation 3 things is required project level
+Repo URL,Account ID and Pwd
+** MONOLITIC ARCH_ APPLICATIONS-- ONly One Repo
+**NON MONOLITIC -- CONTAINER -- APPLICATIONS_MULTPLE REPO's
+
+** when we connect first time to github use below command
+git clone <URL Link>
+git remote -v == we can find URL's for github
+
+
+
